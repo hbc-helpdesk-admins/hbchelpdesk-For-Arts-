@@ -1,0 +1,221 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #A4CCD9;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+.support-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.support-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.facebook{
+    width: 20px;
+}
+.whatsapp{
+    width: 35px;
+}
+.messenger {
+    width: 35px;
+}
+
+/* Main Navigation */
+.main-nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #8DBCC7;
+    padding: 0.5rem;
+}
+
+.main-nav a {
+    color: #353532;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+
+.main-nav a:hover {
+    background-color: #A4CCD9;
+}
+
+.search-bar {
+    padding: 0.4rem;
+    border: none;
+    border-radius: 4px;
+}
+
+/* Banner Section */
+.banner {
+    background-image: url('./assets/theme.png');
+    background-size: cover;
+    color: white;
+    padding: 2rem;
+    
+}
+
+.banner h1 {
+    font-size: 2.5rem;
+    text-align: left;
+}
+
+.banner h2 {
+    font-size: 1.8rem;
+    margin-top: 0.5rem;
+    text-align: left;
+}
+
+.pdf-options label {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: rgb(255, 255, 255);
+}
+
+/* Category Section */
+.category h3 {
+    font-size: 1.8rem;
+    text-align: left;
+    margin: 20px;
+    margin-left: 40px;
+    
+}
+
+.sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sections a{
+    text-decoration: none;
+    color: black;
+}
+
+.category-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%; /* Full width on smaller screens */
+    max-width: 280px;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 7px;
+    background-color: #A4CCD9;
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
+
+.category-item img {
+    width: 28px;
+    margin-bottom: 0.5rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    background-color: #A4CCD9;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+
+.support-links-footer {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 10px;
+    font-weight: bold;
+    margin-left: 40px;
+
+}
+
+
+
+.support-box-footer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    /* .support-links {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .main-nav {
+        flex-direction: column;
+    } */
+
+    .banner h1 {
+        font-size: 2rem;
+    }
+
+    .banner h2 {
+        font-size: 1.5rem;
+    }
+
+    .pdf-options label {
+        margin-left: 0;
+        display: block;
+    }
+
+    .category h3 {
+        font-size: 1.5rem;
+    }
+
+    .sections {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .support-box, .support-box-footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .search-bar {
+        margin-top: 10px;
+        width: 80%;
+    }
+}

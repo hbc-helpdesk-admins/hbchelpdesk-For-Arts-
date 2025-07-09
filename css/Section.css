@@ -1,0 +1,147 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #A4CCD9;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+.support-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.support-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.facebook{
+    width: 20px;
+}
+.whatsapp{
+    width: 35px;
+}
+.messenger {
+    width: 35px;
+}
+
+/* Main Navigation */
+.main-nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #8DBCC7;
+    padding: 0.5rem;
+}
+
+.main-nav a {
+    color: #353532;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+
+.main-nav a:hover {
+    background-color: #A4CCD9;
+}
+
+.search-bar {
+    padding: 0.4rem;
+    border: none;
+    border-radius: 4px;
+}
+
+/* Footer */
+footer {
+    background-color: #A4CCD9;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+
+.support-links-footer {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 10px;
+    font-weight: bold;
+    margin-left: 40px;
+
+}
+
+
+
+.support-box-footer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+/* main content */
+.stream-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+  }
+  
+  .stream-box {
+    width: 200px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .stream-box:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Individual colors */
+  .science {
+    background-color: #A8DADC;
+    color: #1D3557;
+  }
+  
+  .commerce {
+    background-color: #F1FA8C;
+    color: #2E2E2E;
+  }
+  
+  .arts {
+    background-color: #FFADAD;
+    color: #6A040F;
+  }
+  

@@ -1,0 +1,30 @@
+# Contributor Photo Storage Guidelines
+
+This folder is designed to store photos of contributors for credits purposes. Please follow the instructions below to create and organize your batch folder and store your photos correctly.
+
+## Steps for Contributors:
+
+1. **Create a Batch Folder:**
+   - Identify your batch year (e.g., 2027, 2028, etc.).
+   - Create a folder inside this directory with the name format: `Batch <Year>`  
+     Example: If you are from the batch of 2027, create a folder named **`Batch 2027`**.
+
+2. **Add Your Photo:**
+   - Open your respective batch folder.
+   - Upload your photo inside the folder.
+   - Name your photo file using your **full name** to make it identifiable.  
+     Example: If your name is Hassan Abdullah, name the file `Hassan_Abdullah.jpg` or `Hassan_Abdullah.png`.
+
+3. **File Format:**
+   - Acceptable formats: `.jpg`, `.jpeg`, `.png`.
+   - Ensure the image size is optimized (less than 2MB) for easy storage and access.
+
+## Example Folder Structure:
+Credits/ ├──> Batch 2027/ ├──> yasin.jpg | maliha.png 
+         ├──> Batch 2028/ ├──> rofik.jpg | aria.png
+## Notes:
+- Please ensure you create or upload files only in your respective batch folder.
+- If your batch folder is already created, do not create duplicates.
+- Contact the project admin for any issues or corrections.
+
+Thank you for your cooperation!

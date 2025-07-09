@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 Error - Page Not Found</title>
+    <style>
+        body {
+            background-color: black;
+            color: #00ff00;
+            font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+        .error-container {
+            text-align: center;
+        }
+        .error-code {
+            font-size: 5rem;
+            animation: glitch 1s infinite;
+        }
+        .error-message {
+            margin-top: -10px;
+            font-size: 1.5rem;
+        }
+        .command {
+            margin-top: 20px;
+            font-size: 1.2rem;
+            animation: blink 1s infinite;
+        }
+        a {
+            color: #00ff00;
+            text-decoration: underline;
+        }
+        @keyframes glitch {
+            0% { text-shadow: 2px 0 red; }
+            20% { text-shadow: -2px 0 blue; }
+            40% { text-shadow: 2px 0 lime; }
+            60% { text-shadow: -2px 0 yellow; }
+            80% { text-shadow: 2px 0 cyan; }
+            100% { text-shadow: -2px 0 magenta; }
+        }
+        @keyframes blink {
+            50% { opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <div class="error-code">404</div>
+        <div class="error-message">Page Not Found</div>
+        <div class="command">Type <a href="/">"HOME"</a> to escape...</div>
+    </div>
+</body>
+</html>

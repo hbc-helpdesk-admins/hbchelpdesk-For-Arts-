@@ -1,0 +1,22 @@
+Copyright (c) 2024 HBC Helpdesk
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this website and associated documentation files (the "Website"), to use the Website for personal and educational purposes, subject to the following conditions:
+
+1. **Non-Commercial Use Only**: This website and its contents may not be used for any commercial purposes under any circumstances.
+
+2. **No Advertisements**: No advertisements may be added to this website, either directly or indirectly.
+
+3. **Creator Credit**:  
+   - The original creators of the website must always be credited, and their credits may not be removed.  
+   - In the future, if others contribute to the development of the website, they may add their names to the credits alongside the original creators.  
+
+4. **Source Code Updates**:  
+   - The source code may only be modified or updated by those entrusted with ownership or responsibility for the website by the original owners.  
+   - Those responsible for maintaining the website may form a team and perform updates as a group.  
+   - Any contributors or team members must be credited on the website for their work.  
+
+5. **Educational Philosophy**: Remember, sharing knowledge does not harm you; instead, it creates opportunities to learn and grow further. Always embrace the spirit of learning and sharing.
+
+---
+
+For inquiries or permissions beyond the scope of this license, please contact us at zisan8877@gmail.com.
