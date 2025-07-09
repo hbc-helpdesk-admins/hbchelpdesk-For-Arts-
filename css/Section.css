@@ -31,6 +31,12 @@ header {
     justify-content: center;
 }
 
+a {
+    color: inherit;       
+    text-decoration: none; 
+}
+
+
 .support-box {
     display: flex;
     align-items: center;
